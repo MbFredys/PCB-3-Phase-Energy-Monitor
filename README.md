@@ -89,8 +89,5 @@ Clear separation between:
 6. Program the ESP32-S3 via USB
 7. Install and verify measurements
 
-# License
+# 🪪 License
 This project is licensed under the MIT License. See the [MIT License ↗](https://opensource.org/license/mit/) file for more information.
-🪪 License
-
-This project is licensed under the MIT License.
