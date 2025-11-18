@@ -1,0 +1,55 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type
+"C1, C12, C13, C15, C18, C20, C25, C26, C34, C35, C39, C4, C41, C42, C48, C49, C57, C66",18,0.1uF,C_0402_1005Metric,,,,smt
+"C10, C11",2,10uF,C_0805_2012Metric,,,,smt
+"C14, C16, C21, C36, C37, C43, C44, C50, C51, C54, C6, C63, C64",13,10uF,C_0603_1608Metric,,,,smt
+"C17, C19, C52, C58, C60",5,1uF,C_0603_1608Metric,,,,smt
+"C2, C23, C24, C3, C5, C55, C56, C7",8,10pF,C_0402_1005Metric,,,,smt
+C22,1,4.7uF,C_0603_1608Metric,,,,smt
+"C27, C28, C29, C30, C31, C32, C33, C38, C40, C45, C46, C47",12,18nF,C_0603_1608Metric,,,,smt
+"C53, C59, C61",3,470pF,C_0402_1005Metric,,,,smt
+C62,1,20pF,C_0603_1608Metric,,,,smt
+C65,1,22uF,C_Radial_D10.0mm_H12.5mm_P5.00mm,,,,tht
+"C8, C9",2,2.2uF,C_0603_1608Metric,,,,smt
+"D1, D6",2,SS14,D_SMA,,,,smt
+"D10, D11, D12, D13, D14, D8, D9",7,LEDs,LED_0603_1608Metric,,,,smt
+"D2, D7",2,SMBJ5.0CA,D_SMB_TVS,,,,smt
+D3,1,SMAJ58A,D_SMA,,,,smt
+D4,1,SM360,D_MELF,,,,smt
+D5,1,1N4148W,D_SOD-123,,,,smt
+F1,1,1812L110PR,FUSE_1812L05060_LTF,,,,smt
+F2,1,1812L050/60MR,FUSE_1812L05060_LTF,,,,smt
+"F3, F4, F5",3,MOV14D471K,MOV14D471K,,,,tht
+"IC1, IC2",2,LD1117-3.3V,SOT230P700X180-4N,,,,smt
+J1,1,RJ45_PoE,MagJack_PoE_RJ45,,,,tht
+J2,1,USB_C_Receptacle_USB2.0_14P,USB_C_Receptacle_GCT_USB4085,,,,tht
+J3,1,Pin Header,PinHeader_1x06_P1.00mm_Vertical,,,,tht
+"J4, J5, J6",3,Screw_Terminal_01x02,TE_282834-2,,,,tht
+J7,1,Screw_Conn,"TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",,,,tht
+"L1, L2, L3",3,22uH,FUSE_MF-USMFLAB,,,,smt
+L4,1,FerriteBead,L_0603_1608Metric,,,,smt
+"R1, R2",2,5.1k,R_0603_1608Metric,,,,smt
+R10,1,52.3k,R_0603_1608Metric,,,,smt
+"R11, R12, R13, R3, R31, R61, R78",7,10k,R_0603_1608Metric,,,,smt
+"R14, R15, R16, R17, R18, R19",6,2.4,R_0603_1608Metric,,,,smt
+"R20, R21, R22, R23, R24, R25, R26, R27, R35, R58, R59, R60",12,1k,R_0603_1608Metric,,,,smt
+"R28, R29, R30, R32, R33, R34, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R55, R56, R57",21,240k,RES_09FCT00_VIS,,,,tht
+"R4, R5",2,270,R_0402_1005Metric,,,,smt
+"R48, R49, R50, R51, R6, R62, R63, R64, R7, R73, R74, R75, R76, R77, R79, R85, R86",17,33,R_0402_1005Metric,,,,smt
+"R52, R53, R54, R65, R66, R67, R68, R69, R70, R71",10,510,R_0402_1005Metric,,,,smt
+R72,1,2.2k,R_0603_1608Metric,,,,smt
+R8,1,24.9k,R_0603_1608Metric,,,,smt
+R80,1,12.1k,R_0603_1608Metric,,,,smt
+"R81, R82, R83, R84",4,50,R_0402_1005Metric,,,,smt
+R9,1,63.4,R_0603_1608Metric,,,,smt
+"SW1, SW2",2,SW_SPDT,SW_SPDT_PCM12,,,,smt
+U1,1,NMA0505DC,Converter_DCDC_Murata_NMAxxxxDC_THT,,,,tht
+U2,1,WE-TVS-824015043,SOT-23-6,,,,smt
+U3,1,MCP16331x-xCH,SOT-23-6,,,,smt
+U4,1,ESP32-S3-MINI-1,ESP32-S2-MINI-1,,,,smt
+U5,1,ATM90E32AS-AU-Y,TQFP48_7x7MC_MCH,,,,smt
+U6,1,Si8660ED-AS,SOIC-16W_7.5x10.3mm_P1.27mm,,,,smt
+U7,1,Si8641ED-B-IS,SOIC-16W_7.5x10.3mm_P1.27mm,,,,smt
+U8,1,LAN8720A,LAN8720A,,,,smt
+U9,1,TPS2378DDAR,DDA8_3P1X2P4_TEX-M,,,,smt
+Y1,1,16MHz,Crystal_SMD_2.0x1.6mm,,,,smt
+Y2,1,25MHz,Crystal_SMD_2.0x1.6mm,,,,smt
