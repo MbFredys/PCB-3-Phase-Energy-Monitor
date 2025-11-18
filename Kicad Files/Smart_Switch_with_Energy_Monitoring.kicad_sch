@@ -1,0 +1,1367 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c13be163-d59c-4b47-a160-3609fdc1f251")
+	(paper "A4")
+	(title_block
+		(title "Office Energy Monitor")
+		(rev "Fredys Matos")
+		(company "InGnia Tech")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 83.566 114.3) (xy 97.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0003f46d-6429-46fe-82ef-dd217e7c2f3d")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 116.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f831c9-5138-4a60-a7ef-760ff408e514")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038ed6e0-0fc7-4adb-b1d4-f1d5a0761a38")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045a00f7-48a9-499c-af42-9b48f4acba86")
+	)
+	(wire
+		(pts
+			(xy 83.566 155.194) (xy 83.566 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05acd382-0f3a-4c77-8ead-59fcf354017a")
+	)
+	(wire
+		(pts
+			(xy 48.26 76.2) (xy 51.816 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d58cc28-192c-4870-9083-a2e3a70dfd82")
+	)
+	(wire
+		(pts
+			(xy 83.566 145.034) (xy 116.84 145.034)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ee4a22-0e73-426e-a493-0b8ad29764af")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e54828-e08b-4963-a293-3d9a57312b7f")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb2882c-89ce-4111-8278-fa645af9070e")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8d3b83-16e1-4646-adde-193fa5614a4c")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc17d49-687e-44d3-bb29-9c7dc29aee2d")
+	)
+	(wire
+		(pts
+			(xy 83.566 109.22) (xy 92.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ada4e1-6f2a-4b34-8f4c-fa4c0f1ca958")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33be6b63-42c0-4514-998d-20ae010363df")
+	)
+	(wire
+		(pts
+			(xy 83.566 160.274) (xy 116.84 160.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e60255e-271b-4a86-af40-9c78cecc3108")
+	)
+	(wire
+		(pts
+			(xy 83.566 155.194) (xy 116.84 155.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4039780d-6bb1-403b-bc81-d2b90a0b5aae")
+	)
+	(wire
+		(pts
+			(xy 83.566 129.54) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404a372d-e179-4b83-a71b-7078ef8d23bb")
+	)
+	(wire
+		(pts
+			(xy 107.95 124.46) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f6c2e1-aac2-403d-94ef-33948b5856ce")
+	)
+	(wire
+		(pts
+			(xy 83.566 157.734) (xy 116.84 157.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d0cec7-4f39-4977-ac82-e8bfcbb7e4a1")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a5bfc1-a14c-47ac-ac40-f64d019b350e")
+	)
+	(wire
+		(pts
+			(xy 83.566 142.494) (xy 116.84 142.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4611eef6-3e68-46eb-a66e-0b81509d363f")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d107719-0f19-42a5-9c50-47111840ab04")
+	)
+	(wire
+		(pts
+			(xy 83.566 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd8c326-242a-4224-ad41-0cc3684884b9")
+	)
+	(wire
+		(pts
+			(xy 102.87 119.38) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5283661f-13d9-4eed-bf7f-38d1bcee8ef4")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c82563-b3e5-4e3a-98f5-f81c2fe491ce")
+	)
+	(wire
+		(pts
+			(xy 82.55 38.1) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572305fc-bf91-4464-b7d6-8dac60569d7c")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5733835e-169d-4444-9316-708e0568f7b4")
+	)
+	(wire
+		(pts
+			(xy 83.566 121.92) (xy 105.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0ca483-0268-42ba-964f-c2511e22cb5a")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.54) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0962ff-1c9b-4d96-b81c-864b6bcd1dfe")
+	)
+	(wire
+		(pts
+			(xy 83.566 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbfe976-f6f6-4833-9c23-60b91a316791")
+	)
+	(wire
+		(pts
+			(xy 83.566 142.494) (xy 83.566 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc2f054-c205-4fb1-84dd-17117053b573")
+	)
+	(wire
+		(pts
+			(xy 83.566 145.034) (xy 83.566 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d78f801-2f4e-4a24-bb0a-6122d9a29b54")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff0a193-c220-43d2-ba01-e9f346d8bd64")
+	)
+	(wire
+		(pts
+			(xy 83.566 162.814) (xy 116.84 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b64aa51-bef8-4a94-9655-ec93aa545abe")
+	)
+	(wire
+		(pts
+			(xy 82.55 43.18) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0f69d2-725f-4306-bb06-87cb7d1a6fa0")
+	)
+	(wire
+		(pts
+			(xy 83.566 147.574) (xy 116.84 147.574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7c78fd-76ba-4e79-8c19-f2ba62e170c8")
+	)
+	(wire
+		(pts
+			(xy 83.566 150.114) (xy 83.566 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8658ad89-6af0-4a8d-950a-8fd198e4f642")
+	)
+	(wire
+		(pts
+			(xy 83.566 160.274) (xy 83.566 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8708283f-43c9-4d7b-842f-0a0008009c76")
+	)
+	(wire
+		(pts
+			(xy 102.87 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e96b0ef-7c5c-48e8-b188-c394f6f18169")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dc0467-bcbc-458e-9006-429f65aff50d")
+	)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937fa7cf-f89a-4e8e-85ab-dec57951932b")
+	)
+	(wire
+		(pts
+			(xy 45.72 101.6) (xy 52.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957ebc52-cd2d-40da-a842-ad7e7fb51059")
+	)
+	(wire
+		(pts
+			(xy 51.816 73.66) (xy 45.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970f8ff7-d16d-4dc4-a147-28c05274daff")
+	)
+	(wire
+		(pts
+			(xy 83.566 147.574) (xy 83.566 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978f96b5-62ce-4e09-b703-36389fd3afda")
+	)
+	(wire
+		(pts
+			(xy 83.566 157.734) (xy 83.566 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b060e80-b193-4fc9-b49b-e1cd3e928864")
+	)
+	(wire
+		(pts
+			(xy 83.566 165.354) (xy 83.566 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3a34b1-7883-4f7f-96fa-1b36329ac58e")
+	)
+	(wire
+		(pts
+			(xy 83.566 127) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9f0d65-26d3-4b1e-a79b-83b8c4f8659e")
+	)
+	(wire
+		(pts
+			(xy 83.566 111.76) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ffe71a-d56d-4faa-b712-3108dadd7b01")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58ac1a9-71ad-4570-bd08-5dfbc2f3e370")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84) (xy 100.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a79e0c-b97d-4391-af8a-73e3e7a3fdd2")
+	)
+	(wire
+		(pts
+			(xy 83.566 152.654) (xy 116.84 152.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1f7741-4d0b-472e-bd1b-57feb97692ae")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c210808d-ef00-4339-8d06-b6a8e4b7b826")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a8e9d3-4ed2-4af7-aba4-d5d346a3b0aa")
+	)
+	(wire
+		(pts
+			(xy 83.566 119.38) (xy 102.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bfdcd5-741c-40ec-a8a2-2f71fb779dea")
+	)
+	(wire
+		(pts
+			(xy 83.566 152.654) (xy 83.566 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e90b47-7513-4dd5-a22c-cb2b3cc1b42d")
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf293684-fb29-4025-aef9-c700ac5b3a81")
+	)
+	(wire
+		(pts
+			(xy 83.566 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b284ac-07fa-4976-92db-a95eb2c0ddd9")
+	)
+	(wire
+		(pts
+			(xy 83.566 165.354) (xy 116.84 165.354)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca7f01-956a-4a45-83b6-55c1652962ad")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d953b7b9-165c-4eb6-aa1f-ad082d0b18c7")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.92) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e1dfed-36f6-4d9f-bb8e-4096d30b0d5e")
+	)
+	(wire
+		(pts
+			(xy 83.566 150.114) (xy 116.84 150.114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47dfb39-b413-49c5-8b1f-52be67dcaaee")
+	)
+	(wire
+		(pts
+			(xy 82.55 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8627e85-3546-4c7c-9b5a-498fcdf289ca")
+	)
+	(wire
+		(pts
+			(xy 83.566 162.814) (xy 83.566 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98589fc-7762-4c7e-858c-13c59d1057b0")
+	)
+	(sheet
+		(at 116.84 94.996)
+		(size 33.02 73.914)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "310bbc39-a74c-43d9-9713-7abf654ab268")
+		(property "Sheetname" "Energy Measurement Block"
+			(at 116.84 94.2844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "measurement.kicad_sch"
+			(at 116.84 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_CS" input
+			(at 116.84 165.354 180)
+			(uuid "3db9c58e-20ba-456a-80b7-d01a3bbba930")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_MISO" input
+			(at 116.84 162.814 180)
+			(uuid "117c360c-79c0-4af3-b19b-eb6344f44181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_MOSI" input
+			(at 116.84 160.274 180)
+			(uuid "c6d6a227-b509-4359-8a43-96ee631d035d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_SCLK" input
+			(at 116.84 157.734 180)
+			(uuid "1fd29b26-ae07-421b-9d92-cf504bd0f82f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_INT_RQ0" input
+			(at 116.84 155.194 180)
+			(uuid "ed805084-7c28-4ec0-bdcf-774c2eea73f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_INT_RQ1" input
+			(at 116.84 152.654 180)
+			(uuid "f9f66a56-57c8-4770-94c2-03e3dfa10542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_WarnOut" input
+			(at 116.84 150.114 180)
+			(uuid "1cc9115b-d217-4a65-b1b0-7c21ad980455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX0" input
+			(at 116.84 147.574 180)
+			(uuid "551d5995-8c24-4cdb-96c8-e3a33dc802df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX1" input
+			(at 116.84 145.034 180)
+			(uuid "4b3832a9-64d8-4797-a0d2-efb9bdcef395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX2" input
+			(at 116.84 142.494 180)
+			(uuid "3f383667-1f57-4169-be3a-d7ba939e849c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_Switch_with_Energy_Monitoring"
+				(path "/c13be163-d59c-4b47-a160-3609fdc1f251"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 30.988)
+		(size 32.766 50.292)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c852326-9731-4046-afcf-7ba123407d33")
+		(property "Sheetname" "Communication Block"
+			(at 116.84 30.2764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "communication.kicad_sch"
+			(at 116.84 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP32{slash}LAN87_CRS_DV" input
+			(at 116.84 78.74 180)
+			(uuid "0d67a8ff-3d43-42ff-b9dc-03e657f820a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_MDC" input
+			(at 116.84 76.2 180)
+			(uuid "6d709307-387b-461c-ac15-3746ff1f6a53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_MDIO" input
+			(at 116.84 73.66 180)
+			(uuid "fbfdc960-b217-4020-9cb3-ddcbafc41373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_nRST" input
+			(at 116.84 71.12 180)
+			(uuid "59110951-240d-4ce2-8061-ab26b4d60865")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_REFCLKO" input
+			(at 116.84 68.58 180)
+			(uuid "a945a3e3-ddff-499e-8581-f477709077dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_RXD0" input
+			(at 116.84 66.04 180)
+			(uuid "b4cc3f90-e34f-4898-9673-967be17d1fcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_RXD1" input
+			(at 116.84 63.5 180)
+			(uuid "69dd8ee8-f3af-42b2-8253-7da54b016997")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXD0" input
+			(at 116.84 60.96 180)
+			(uuid "d58280a9-23b3-4aa9-9760-56e65a496b1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXD1" input
+			(at 116.84 58.42 180)
+			(uuid "7f671f8e-154a-4b1e-bb1f-bab2ad7a9e61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXEN" input
+			(at 116.84 55.88 180)
+			(uuid "bf4f2c17-d8cc-43ba-a936-c23ee31ed073")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_LED1" input
+			(at 116.84 38.1 180)
+			(uuid "ed60faa3-9543-4c0a-881d-d829f7ec2915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_LED2" input
+			(at 116.84 40.64 180)
+			(uuid "4e82e77a-5fe2-4057-8c14-587c6505248a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_RX+" input
+			(at 116.84 43.18 180)
+			(uuid "044de0f3-da8a-446c-bee3-235b435afdbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_RX-" input
+			(at 116.84 45.72 180)
+			(uuid "d5707fc6-f29d-40e7-94f6-03bb0a4a4855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_TX+" input
+			(at 116.84 48.26 180)
+			(uuid "dfb1d7fe-af05-46ca-a4dd-b1fa19006ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_TX-" input
+			(at 116.84 50.8 180)
+			(uuid "02845730-bb5a-493f-a173-15510e8c46d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_Switch_with_Energy_Monitoring"
+				(path "/c13be163-d59c-4b47-a160-3609fdc1f251"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 95.25)
+		(size 31.496 75.184)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7d4d96d-17ef-4ea3-8006-467b11c84d53")
+		(property "Sheetname" "Control Block"
+			(at 52.07 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 52.07 171.0186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_CS" input
+			(at 83.566 165.1 0)
+			(uuid "844c30b9-209f-4793-ba32-c9f53154b775")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_MISO" input
+			(at 83.566 162.56 0)
+			(uuid "e1d570e3-b375-4e18-b285-2def6b42c2cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_MOSI" input
+			(at 83.566 160.02 0)
+			(uuid "35054a68-9282-4bff-b4c5-3a1b7bb9d98f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM9_SPI_SCLK" input
+			(at 83.566 157.48 0)
+			(uuid "c70e1b87-1cc5-4261-bdd2-b182f60ebe56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_INT_RQ0" input
+			(at 83.566 154.94 0)
+			(uuid "caed21a8-eae5-4393-964e-5bec8f1152b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_INT_RQ1" input
+			(at 83.566 152.4 0)
+			(uuid "4ac31269-d3fe-4761-b8d4-9aa6549c1764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_WarnOut" input
+			(at 83.566 149.86 0)
+			(uuid "fa7ff9b6-caa4-40e9-96f6-d48cf73b9f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX0" input
+			(at 83.566 147.32 0)
+			(uuid "583a2936-c682-4a35-83ca-9b5d58ee64ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX1" input
+			(at 83.566 144.78 0)
+			(uuid "5a6f1541-08dc-423a-a911-32e696f4db0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}ATM90_ZX2" input
+			(at 83.566 142.24 0)
+			(uuid "592e6e4d-ae24-498c-838a-901b10926327")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_CRS_DV" input
+			(at 83.566 129.54 0)
+			(uuid "a86329fe-1e7c-41a4-aeaf-1a1459d149fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_MDC" input
+			(at 83.566 127 0)
+			(uuid "3ad65646-58c4-4d10-8f7c-4c72c49fcf25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_MDIO" input
+			(at 83.566 124.46 0)
+			(uuid "166eec38-f6ca-46f0-93ce-6795457afe26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_nRST" input
+			(at 83.566 121.92 0)
+			(uuid "84f2eec3-e8e3-46aa-93b7-b02821da80a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_REFCLKO" input
+			(at 83.566 119.38 0)
+			(uuid "a9bb38ba-5847-4766-978d-2d515a8c56f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_RXD0" input
+			(at 83.566 116.84 0)
+			(uuid "4e4645f1-8975-465e-8064-a1e3d20fcd24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_RXD1" input
+			(at 83.566 114.3 0)
+			(uuid "231c6a1a-e3d6-4aef-902d-a7fae632222d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXD0" input
+			(at 83.566 111.76 0)
+			(uuid "cdf98c50-31f2-4f26-94a5-b77a51cfdfb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXD1" input
+			(at 83.566 109.22 0)
+			(uuid "5fc19f97-cc93-458c-acd7-bc2b7a48e3a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}LAN87_TXEN" input
+			(at 83.566 106.68 0)
+			(uuid "173671d4-2950-49bf-abff-d271293dcdb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32{slash}USB_D+" input
+			(at 52.07 101.6 180)
+			(uuid "e6f12cd0-e444-425d-9091-1c2ae2b74a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}USB_D-" input
+			(at 52.07 99.06 180)
+			(uuid "de7f4922-4914-4276-b8df-682deaffd5c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Smart_Switch_with_Energy_Monitoring"
+				(path "/c13be163-d59c-4b47-a160-3609fdc1f251"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 51.816 31.242)
+		(size 30.734 49.784)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6500a7e-0391-4ee1-ab9d-083c8a3da10b")
+		(property "Sheetname" "Power Block"
+			(at 51.816 30.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 51.816 81.6106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP32{slash}USB_D+" input
+			(at 51.816 76.2 180)
+			(uuid "a6f66f26-56e9-4236-b3d5-a3d13d437d51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32{slash}USB_D-" input
+			(at 51.816 73.66 180)
+			(uuid "68ff8b83-5908-4ed1-9b5a-7fcf516cfc0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN87{slash}RJ45_LED1" input
+			(at 82.55 38.1 0)
+			(uuid "fad2c1ef-513b-4603-aa1b-9caac1eef33f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAN87{slash}RJ45_LED2" input
+			(at 82.55 40.64 0)
+			(uuid "7e6cbe6c-0bfe-484b-b0cb-07491be6d011")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAN87{slash}RJ45_RX+" input
+			(at 82.55 43.18 0)
+			(uuid "446863a0-2055-4376-99b3-39d1b20bc41f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAN87{slash}RJ45_RX-" input
+			(at 82.55 45.72 0)
+			(uuid "47dbebb7-c165-4cea-86c7-ac9ee07a4d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAN87{slash}RJ45_TX+" input
+			(at 82.55 48.26 0)
+			(uuid "5bce715f-0cd2-4f67-b584-faa27170c03c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAN87{slash}RJ45_TX-" input
+			(at 82.55 50.8 0)
+			(uuid "bfda323b-58d8-4778-90ef-4bc6d81e54ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Smart_Switch_with_Energy_Monitoring"
+				(path "/c13be163-d59c-4b47-a160-3609fdc1f251"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
