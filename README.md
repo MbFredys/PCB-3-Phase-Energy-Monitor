@@ -43,7 +43,7 @@ This design solves those issues by providing an open, reproducible, integrable, 
 5. Supports OTA updates
 
 # 🔋 Robust Power Architecture
-1. PoE → 5V → 3.3V conversion using MAX17521ATG
+1. PoE → 5V → 3.3V conversion
 2. Fully isolated DC domain for the measurement section
 3. MOVs, TVS diodes, PTC fuses, and proper filtering throughout the design
 
