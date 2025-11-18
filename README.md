@@ -1,8 +1,7 @@
 # ⚡Energy-Monitoring-PCB
 A high-accuracy, isolated and PoE-powered three-phase energy monitoring system, designed for integration with Building Management Systems (BMS) in office, commercial, and industrial environments.
 
-🌍 Overview
-This PCB is a 3-phase 4-wire (3P4W) electrical monitoring module designed to be installed at the main power entry of an office or small facility.
+🌍 Overview: This PCB is a 3-phase 4-wire (3P4W) electrical monitoring module designed to be installed at the main power entry of an office or small facility.
 It measures all critical electrical parameters in real time and transmits them via Ethernet to an external BMS, which handles control and decision-making.
 
 # 🎯 Problem This Project Solves
