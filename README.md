@@ -89,4 +89,6 @@ Clear separation between:
 7. Install and verify measurements
 
 # 🪪 License
-This project is licensed under the MIT License. See the [MIT License ↗](https://opensource.org/license/mit/) file for more information.
+This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0).
+See the [CERN-OHL-W-2.0 ↗](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/82b567f43ce515395f7ddbfbad7a8806/cern_ohl_w_v2.txt) file for more information.
+
