@@ -1,4 +1,6 @@
 # ⚡Energy-Monitoring-PCB
+[![License: CERN-OHL-W-2.0](https://img.shields.io/badge/license-CERN--OHL--W%202.0-blue.svg)](https://ohwr.org/projects/cern-ohl/wikis/CERN-OHL-version-2)
+
 A high-accuracy, isolated and PoE-powered three-phase energy monitoring system, designed for integration with Building Management Systems (BMS) in office, commercial, and industrial environments.
 
 🌍 Overview: This PCB is a 3-phase 4-wire (3P4W) electrical monitoring module designed to be installed at the main power entry of an office or small facility.
