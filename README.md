@@ -1,96 +1,59 @@
-# ⚡Energy-Monitoring-PCB
+# Three-Phase Energy Monitor
+
 [![License: CERN-OHL-W-2.0](https://img.shields.io/badge/license-CERN--OHL--W%202.0-blue.svg)](https://ohwr.org/projects/cern-ohl/wikis/CERN-OHL-version-2)
 
-A high-accuracy, isolated and PoE-powered three-phase energy monitoring system, designed for integration with Building Management Systems (BMS) in office, commercial, and industrial environments.
+Hardware design for a three-phase, four-wire energy-monitoring platform with Ethernet and Power over Ethernet, intended for future integration with building-management systems.
 
-🌍 Overview: This PCB is a 3-phase 4-wire (3P4W) electrical monitoring module designed to be installed at the main power entry of an office or small facility.
-It measures all critical electrical parameters in real time and transmits them via Ethernet to an external BMS, which handles control and decision-making.
+> **Project status:** Design and manufacturing documentation completed. The PCB has not been fabricated, calibrated, electrically validated, or tested for regulatory compliance.
 
-# 🎯 Problem This Project Solves
-Most commercial power meters are:
-1. Expensive
-2. Closed and hard to integrate
-3. Limited in data access
-4. Not based on modern precision chips
-5. Lacking PoE connectivity
-6. Not open-hardware or customizable
+## Project objective
 
-This design solves those issues by providing an open, reproducible, integrable, and fully documented energy-monitoring board.
+The project explores an open and documented architecture capable of acquiring three-phase electrical measurements and exposing them through a connected embedded platform.
 
-# 🚀 Main Features
-🔌 Professional Energy Measurement (ATM90E32AS)
-1. Full 3-phase 4-wire (3P4W) measurement 
-2. Internal computation of:
-  - RMS voltage
-  - RMS current
-  - Active, reactive, and apparent power
-  - Power factor
-  - Frequency
-  - Per-phase energy accumulation
-3. High-precision resistive voltage dividers
-4. Current sensing via external CTs
-5. Full isolation between mains and low-voltage electronics
+## System architecture
 
-# 🌐 Ethernet + PoE Connectivity
-1. LAN8720A Ethernet PHY with proper terminations / EMI practices
-2. 10/100 Mbps stable Ethernet link
-3. PoE 802.3af powered through TPS2378DDAR
-4. Surge, ESD, and transient protection on all Ethernet lines
+- **Measurement:** ATM90E32AS for 3P4W energy measurement
+- **Controller:** ESP32-S3-MINI-1
+- **Networking:** LAN8720A Ethernet PHY using RMII
+- **Power:** TPS2378 PoE interface with local 5 V and 3.3 V rails
+- **Sensing:** External current transformers and resistive voltage-sensing networks
+- **Isolation:** Digital isolators between measurement and low-voltage digital domains
+- **Development access:** USB and debugging/programming interfaces
 
-# 🧠 ESP32-S3-MINI-1 Controller
-1. SPI communication with the energy IC through digital isolators (Si86xx)
-2. Native USB for programming
-3. JTAG for debuging
-4. Processes measurements and publishes data to the BMS
-5. Supports OTA updates
+## Engineering work
 
-# 🔋 Robust Power Architecture
-1. PoE → 5V → 3.3V conversion
-2. Fully isolated DC domain for the measurement section
-3. MOVs, TVS diodes, PTC fuses, and proper filtering throughout the design
+- Defined system requirements and functional architecture
+- Selected the principal ICs, protection devices, connectors, and power components
+- Developed the schematic and multi-domain PCB layout in KiCad
+- Defined measurement, isolation, Ethernet, PoE, and power-distribution sections
+- Prepared the BOM and manufacturing documentation
 
-# 🛡️ Safety & Isolation
-Clear separation between:
-  - High-voltage domain (AC mains)
-  - Low-voltage domain (ESP32, PHY, logic)
-  - Creepage/clearance compliant with IEC standards
-  - Multi-stage protection for safe installation in real electrical panels
+## Key design considerations
 
-# 🆚 Why This Design Is Better Than Similar Products
-1. Fully documented, open-hardware
-2. Native PoE, uncommon in industrial meters
-3. Based on the highly accurate ATM90E32AS chip
-4. Correct Ethernet PHY terminations: Bob Smith, CT biasing, TVS, filters
-5. Fully isolated architecture for industrial safety
-6. Cheaper and more flexible than commercial closed energy analyzers
-7. Designed for reproducibility, manufacturing, and long-term reliability
+- Isolation boundaries and return-current paths
+- Creepage and clearance around mains-related circuitry
+- Mixed-signal grounding and decoupling
+- Ethernet differential routing and PHY termination
+- PoE power conversion and protection
+- Calibration strategy for voltage and current channels
 
-# 🛠️ Usage
-1. Connect the PCB to the incoming three-phase line (3 phases + neutral).
-2. Attach CTs to each phase.
-3. Power the board using a PoE switch.
-4. Connect to Ethernet and pair with the BMS.
-5. Firmware reads and transmits all electrical parameters.
+## Deliverables
 
-# 🚀 Getting Started
-1. Clone this repository
-2. Open the design files in KiCad
-3. Review critical areas:
-  - Isolation boundaries
-  - Voltage dividers
-  - Differential Ethernet routing
-  - PoE and DC-DC power chain
-4. Manufacture the PCB (PCBWay / JLCPCB recommended)
-5. Assembly order:
-  - Power stage
-  - PoE stage
-  - Isolators
-  - ESP32-S3
-  - Connectors and passives
-6. Program the ESP32-S3 via USB
-7. Install and verify measurements
+The repository contains the available design source files and supporting manufacturing documentation. Review the repository structure before using any generated outputs.
 
-# 🪪 License
-This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0).
-See the [CERN-OHL-W-2.0 ↗](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/82b567f43ce515395f7ddbfbad7a8806/cern_ohl_w_v2.txt) file for more information.
+## Validation still required
 
+A physical prototype is required to verify:
+
+- Electrical safety and isolation distances
+- Measurement accuracy and calibration
+- Ethernet and PoE operation
+- Thermal behavior and power integrity
+- EMC/EMI performance
+- Compliance with any applicable product or installation standards
+
+This repository should be treated as an engineering design project, not as a certified or production-ready energy meter.
+
+## License
+
+Licensed under CERN-OHL-W-2.0.
